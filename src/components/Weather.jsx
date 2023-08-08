@@ -26,7 +26,7 @@ const changeTextButtom = isCelsius ? "Cambiar a F" : "Cambiar a C";
      
         <section className="text-center">
             
-            <h2 className="shadow-md text-4xl font-bold text-gray-800">{weatherInfo?.name}, {weatherInfo.sys.country} </h2>
+            <h2 className="shadow-md text-4xl font-bold text-gray-800">{weatherInfo?.name}</h2>
             {/*Contenedor de secciones superior e inferior*/}
             <section className="grid gap-4 sm:grid-cols-[auto_auto]" >
                 {/*seccion superior*/}

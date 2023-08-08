@@ -11,7 +11,7 @@ const BackGrounds = {
   "02d": "bg-[url(/images/fewClouds.jpg)]",
   "02n": "bg-[url(/images/fewcloudsnigth.jpg)]",
   "03d": "bg-[url(/images/scatteredclouds.jpg)]",
-  "03n": "bg-[url(/images/scatteredcloudsnigth.jpg)]",
+  "03n": "bg-[url(/images/scatteredcloudsnigth.jpeg)]",
   "04d": "bg-[url(/images/brokenclouds.jpg)]",
   "04n": "bg-[url(/images/brokencloudsnigth.jpg)]",
   "09d": "bg-[url(/images/showerrain.jpg)]",
@@ -53,7 +53,7 @@ function App() {
   
 
   return (
-    <main className={`bg-black min-h-screen text-black bg- no-repeat bg-cover font-lato flex justify-center items-center px-4 ${BackGrounds[weatherInfo?.weather[0].icon]}`} >
+    <main className={`bg-black min-h-screen text-black bg- no-repeat bg-cover font-lato flex justify-center items-center px-4  ${BackGrounds[weatherInfo?.weather[0].icon]}`} >
      
      
       <Weather weatherInfo={weatherInfo} />
