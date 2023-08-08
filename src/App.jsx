@@ -54,9 +54,9 @@ function App() {
 
   return (
     <main className={`bg-black min-h-screen text-black bg- no-repeat bg-cover font-lato flex justify-center items-center px-4 ${BackGrounds[weatherInfo?.weather[0].icon]}`} >
+     
+     
       <Weather weatherInfo={weatherInfo} />
-      
-      
     </main>
   )
 }
